@@ -1,0 +1,237 @@
+/* COMMON CSS STYLE START*/
+
+    .ralway{
+    font-family: 'Raleway', sans-serif;
+    }
+    .opensans{
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    h1,h2,h3,h4,h5,h6,p{
+        font-family: 'Raleway', sans-serif;
+    }
+    
+
+/* COMMON CSS STYLE  END*/
+
+/* HEADER SECTION STYLE */
+.header{
+    background-image: url('./img/ActiveBox.jpg');
+    background-repeat: no-repeat;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-transparent {
+    border-bottom: 1px solid #505268;
+}
+a.nav-link {
+    font-size: 20px;
+    color: white!important;
+}
+.banner-section{
+    padding: 150px 0;
+}
+.heading{
+    font-size: 65px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.heading-pera{
+    margin: 40px 0;
+}
+.btn-warning{
+    background-color: #e84545;
+    border: unset;
+    padding: 15px 30px ;
+    text-transform: uppercase;
+}
+
+/* SERVICES SECTION STYLE START */
+section.services {
+    padding: 100px 0;
+}
+.services-header{
+    font-weight: bold;
+}
+
+
+
+.gallery-2nd-row {
+   padding: 0;
+  
+   
+}
+.row>* {
+ 
+    padding-right: 0; 
+     padding-left: 0; 
+   
+}
+
+.container-section {
+    position: relative;
+   border: 1px solid white;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #e04e4f;
+  }
+  
+  .container-section:hover .overlay {
+    opacity: 0.8;
+  }
+  .text h5{
+      font-size: 20px;
+  }
+  .text p{
+    font-size: 15px;
+}
+  .text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+/* START TEAM SECTION STYLE */
+  .team-section{
+      padding: 100px 0;
+  }
+  h5.team-member {
+    margin-top: 30px;
+    font-weight: 600;
+   
+}
+h6.team-desig {
+    color: #e84545;
+}
+p.team-description {
+    margin: 30px 0;
+}
+.team-icon li{
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+    border: 1px solid #e8ecee;
+}
+.team-icon li a{
+    color:#e8ecee;
+}
+
+/* START GREETING SECTION STYLE */
+/* .bg-greeting{
+    background-color: #53354a;
+    padding: 95px 0;
+} */
+.bg-dark{
+    background-color: #53354a!important;
+}
+.bg-dark,.bg-primary,.bg-danger{
+   
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 180px 0;
+    width: 100%;
+}
+.carousel-control-next {
+    right: unset;
+}
+.carousel-control-prev {
+    left: unset;
+}
+.carousel-control-next, .carousel-control-prev {
+    width: 0%;
+  
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 26%;
+    left: 25%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.carousel-caption.d-none.d-md-block {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+/* .bg-dark{
+    background-color: tomato;
+}
+.bg-primary{
+    background-color: red;
+  
+}
+.bg-danger{
+    background-color: yellow;
+} */
+
+/* DOWNLOAD SECTION STYLE */
+.download{
+    padding: 80px 0;
+}
+.download .heading{
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.download .heading-pera{
+    margin: 10px;
+    font-weight: 700;
+}
+.download .btn-warning{
+    background-color: #e84545;
+    border: unset;
+    padding: 20px 40px ;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+/* FOOTER SECTION STYLE */
+.footer{
+    background-color: #3a3e64;
+}
+.text-justify{
+    text-align: center;
+}
+
+/* COPYRIGHTS SECTION STYLE */
+.copyrights{
+    background-color: #313454;
+    padding: 60px 0;
+}
+.right{
+    color: #737378;
+}
+.right span a{
+    text-decoration: none;
+    color: white;
+}
+
