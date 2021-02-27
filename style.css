@@ -51,7 +51,12 @@ section.services {
 .services-header{
     font-weight: bold;
 }
-
+.text-justify {
+   
+    font-size: 15px;
+    text-align: justify;
+    padding-right: 20px;
+}
 
 
 .gallery-2nd-row {
